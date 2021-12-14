@@ -1,0 +1,78 @@
+@font-face {
+font-family: PottaOne;
+src: url(fonts/PottaOne-Regular.ttf);
+}
+
+@font-face {
+font-family: 'Coda Caption', sans-serif;
+}
+
+@font-face {
+font-family: 'Yusei Magic', sans-serif;
+}
+
+header {
+margin: auto auto;
+background-color: blue;
+}
+
+h1 {
+font-family: 'PottaOne', sans-serif;
+color: yellow;
+text-align: center;
+}
+
+.primero-izquierda {
+display: inline-block;
+position: relative;
+width: 25%;
+background-color: CadetBlue;
+color: white;
+font-size: 14px;
+line-height: 23px;
+margin-bottom: -10%;
+}
+
+.primero-derecha {
+display: inline-block;
+position: relative;
+margin-left: 0px;
+width: 74%;
+vertical-align: top;
+margin-left: -5px;
+}
+
+.primero-derecha span {
+background-color: black;
+color: yellow;
+line-height: 25px;;
+}
+
+.segundo {
+font-family: 'Coda Caption', sans-serif;
+font-size: 20px;
+}
+
+.tercero {
+font-family: 'Yusei Magic', sans-serif;
+font-size: 22px;
+font-weight: 600;
+}
+
+hr.simple-line {
+margin-left: 35%;
+margin-right: 20%;
+}
+
+hr.simple-line.simple-line-izquierda {
+margin-left: 25%;
+margin-right: 30%;
+}
+
+hr.blue-block {
+color: blue;
+border: solid blue 8px;
+margin-left: 0%;
+margin-right: 20%;
+
+}
